@@ -1,10 +1,9 @@
-import styles from './page.module.css'
-
+import Card from "@/components/Card";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-    hello
+    <main>
+      <Card />
     </main>
-  )
+  );
 }
